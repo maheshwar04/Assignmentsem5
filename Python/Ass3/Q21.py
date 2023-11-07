@@ -12,7 +12,7 @@ def prime_factors(number):
 
     while number > 1:
         if number % divisor == 0 and is_prime(divisor):
-            factors.append(divisor)
+            print(divisor)
             number //= divisor
         else:
             divisor += 1
