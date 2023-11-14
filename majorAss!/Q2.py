@@ -17,12 +17,10 @@ def int2hex(decimal_value):
         exit()
 
 def main():
-    # Test hex2int function
     hex_input = input("Enter a hexadecimal digit: ")
     decimal_result = hex2int(hex_input)
     print(f"The decimal equivalent of {hex_input} is: {decimal_result}")
 
-    # Test int2hex function
     decimal_input = int(input("Enter a decimal value (0-15): "))
     hex_result = int2hex(decimal_input)
     print(f"The hexadecimal equivalent of {decimal_input} is: {hex_result}")
